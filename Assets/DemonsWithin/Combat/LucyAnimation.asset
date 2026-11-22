@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc531176ed50764e8f49e3d18deb2eb, type: 3}
+  m_Name: LucyAnimation
+  m_EditorClassIdentifier: Assembly-CSharp::DemonsWithin.DuelAnimationProfile
+  PreviewModel: {fileID: 1709919067436686510, guid: b8d29ef4ce6b5474e86ecbe4ea7d2447, type: 3}
+  Idle: {fileID: -6506135606468264266, guid: 8706e925e05e96144bb91a01f1fea3c2, type: 3}
+  Forward:
+    Start: {fileID: -3777942803645481349, guid: 040e42fcbac06644f9652bbbd104abde, type: 3}
+    Loop: {fileID: -4484266208002025138, guid: 13e21e1676df446459eea2ec9a0fe937, type: 3}
+    Stop: {fileID: -8382008599513855143, guid: 956722c593f7eef449d4e3aec7477756, type: 3}
+    ReferenceSpeed: 0
+  Back:
+    Start: {fileID: 5456988391473548335, guid: a31d2a512f6b923499955642c38f9890, type: 3}
+    Loop: {fileID: -2498834032547996610, guid: 53fbaff7c4aeef748a3120fd76564636, type: 3}
+    Stop: {fileID: 507800550953365755, guid: 297a3bf71c5d1074888344bdeafb26ac, type: 3}
+    ReferenceSpeed: 0
+  Left:
+    Start: {fileID: 566313324165294110, guid: 38d3e7b575969dc4fa358cadbcbe2cbb, type: 3}
+    Loop: {fileID: 5787585460260255984, guid: 3e4b75b8e52f80c48831f153ebd751df, type: 3}
+    Stop: {fileID: -512785011822807271, guid: 1ca92ec754617b64d93dc75f237690a8, type: 3}
+    ReferenceSpeed: 0
+  Right:
+    Start: {fileID: -8105682451790870049, guid: 9df7a661fc7f6974ea2a9978fdc26349, type: 3}
+    Loop: {fileID: 4150540488300386508, guid: 4751aa47360372343876354e19c68fbc, type: 3}
+    Stop: {fileID: 8310793747147241544, guid: 2643ae164a30bf44094c1b01b5c3ec2d, type: 3}
+    ReferenceSpeed: 0
+  Run:
+    Start: {fileID: -2779065341612887080, guid: 9b085f056391cc94094b25afd0db74e8, type: 3}
+    Loop: {fileID: 8430362803238232463, guid: 5aff1555fb420e048b4e05ffebab65fe, type: 3}
+    Stop: {fileID: 1874791023308148177, guid: 7daf9a049f61cc147b1a611182e8c924, type: 3}
+    ReferenceSpeed: 0
+  ForwardRight:
+    Start: {fileID: 0}
+    Loop: {fileID: 7639041468987983242, guid: fda1ee9ee21f9614abaed47a24eea713, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 2.75
+  BackRight:
+    Start: {fileID: 0}
+    Loop: {fileID: 2056296709285471485, guid: a585c1283bfc5e941bf37eec570b912b, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 2.75
+  BackLeft:
+    Start: {fileID: 0}
+    Loop: {fileID: 4261307443873502783, guid: 9898a2349a90cf64d8cb8587254f5fb1, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 2.75
+  ForwardLeft:
+    Start: {fileID: 0}
+    Loop: {fileID: -5755978183564870495, guid: ceb70b0a32846d34bbc5dcbbc46109c3, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 2.75
+  RunDirections:
+  - Start: {fileID: -2779065341612887080, guid: 9b085f056391cc94094b25afd0db74e8, type: 3}
+    Loop: {fileID: 8430362803238232463, guid: 5aff1555fb420e048b4e05ffebab65fe, type: 3}
+    Stop: {fileID: 1874791023308148177, guid: 7daf9a049f61cc147b1a611182e8c924, type: 3}
+    ReferenceSpeed: 0
+  - Start: {fileID: 0}
+    Loop: {fileID: -5363996762398166980, guid: b1f0eb320902c70489990a15774cd0d6, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  - Start: {fileID: 0}
+    Loop: {fileID: -2591741388257242460, guid: b198f8bebf1d22341997ec24730f0448, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  - Start: {fileID: 0}
+    Loop: {fileID: -4300739355498233939, guid: 78a70bb64917b034483ccdb8697eddc1, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  - Start: {fileID: 0}
+    Loop: {fileID: 7865694348501044223, guid: bcfe058f27dd15242b2b0a6898a48704, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  - Start: {fileID: 0}
+    Loop: {fileID: 3994332660103515879, guid: b5ac06601116b28408d3677941dcbc00, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  - Start: {fileID: 0}
+    Loop: {fileID: -6252622589643394665, guid: 7fb10100c73dbda4bbf4e0934ab9f300, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  - Start: {fileID: 0}
+    Loop: {fileID: -1410648317895203792, guid: e30155003234cf6439eaf71213bcaaa8, type: 3}
+    Stop: {fileID: 0}
+    ReferenceSpeed: 6.2
+  Sprint:
+    Start: {fileID: 0}
+    Loop: {fileID: 2019560895462781194, guid: 584dcc3ec614bc34da99f5a3bb6d15fc, type: 3}
+    Stop: {fileID: -5567370054606716065, guid: 5ccc9681f4b8d184393e5e538aefb666, type: 3}
+    ReferenceSpeed: 8.2
+  LocomotionFade: 0.12
+  Fades:
+  - From: {fileID: -8263323534692277976, guid: f9452b178cf33b847acdc7d2c1c53ad5, type: 3}
+    To: {fileID: -3777942803645481349, guid: 040e42fcbac06644f9652bbbd104abde, type: 3}
+    Seconds: 0.095910124
+  - From: {fileID: -3777942803645481349, guid: 040e42fcbac06644f9652bbbd104abde, type: 3}
+    To: {fileID: -4484266208002025138, guid: 13e21e1676df446459eea2ec9a0fe937, type: 3}
+    Seconds: 0.1
+  - From: {fileID: 8430362803238232463, guid: 5aff1555fb420e048b4e05ffebab65fe, type: 3}
+    To: {fileID: 1874791023308148177, guid: 7daf9a049f61cc147b1a611182e8c924, type: 3}
+    Seconds: 0.13
+  - From: {fileID: -944549193236652777, guid: 80e1a3bb6d7a6264fb7ae6a828e8be94, type: 3}
+    To: {fileID: -518962105211102742, guid: 59224bbf6d5dcae448f722902fe7dffc, type: 3}
+    Seconds: 0.08

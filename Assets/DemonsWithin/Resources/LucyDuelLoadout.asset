@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394ff633148d4004cadc4cdc18365472, type: 3}
+  m_Name: LucyDuelLoadout
+  m_EditorClassIdentifier: Assembly-CSharp::DemonsWithin.DuelLoadout
+  Animation: {fileID: 11400000, guid: 70827934978b20b47998ffeba36ca688, type: 2}
+  Combo: {fileID: 11400000, guid: 2ca392db1ca074b49bcf1355c0267f54, type: 2}
+  AdditionalCombos: {fileID: 6686211529204969617, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+  Actions:
+  - {fileID: 11400000, guid: 0576a7cf27471064095517dda3a48547, type: 2}
+  - {fileID: 11400000, guid: 751e8fe0a4bf7e84493d56ad75c9b3c0, type: 2}
+  - {fileID: 11400000, guid: 3fef433d3fd92094289fd1d72d7322ab, type: 2}
+  - {fileID: 11400000, guid: 083cf55451475df4fa816c6c92b8d387, type: 2}
+  - {fileID: 11400000, guid: 71ca9d3c4a1cb344b86a44cbaef94b09, type: 2}
+  - {fileID: 11400000, guid: 037501560ef4dc5409ea0515a40204c7, type: 2}
+  - {fileID: 11400000, guid: 5700628e57a96684b8cabd5c2c885a7d, type: 2}
+  - {fileID: 11400000, guid: 565669a31d1a0a6478900f79947585ac, type: 2}
+  - {fileID: 11400000, guid: 78e2a9cb8eefe664693e7c8f6d6db469, type: 2}
+  - {fileID: 11400000, guid: 82362226a9100354a9dc286b7404b4a5, type: 2}
+  - {fileID: 11400000, guid: 3bc77a21af791c840934e397efbcae8a, type: 2}
+  - {fileID: 11400000, guid: 2410890d06a617e4e89c5ea770ea4d41, type: 2}
+  Air:
+    NeutralLaunch: {fileID: 1349723614760547420, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    ForwardLaunch: {fileID: -8683729437729267347, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    SideLaunch: {fileID: -4818064810808450427, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    BackLaunch: {fileID: -8618449909305922340, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    Quick: {fileID: 855390012673048796, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    Delayed: {fileID: 6433446938254922394, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    Finisher: {fileID: 7131529337156893925, guid: 2c55c539db4b7ff4b8d93bf369aa737a, type: 2}
+    Landing: {fileID: 11400000, guid: 75ab5bf18434ba6439aafb8c7b98762d, type: 2}
+    FallLoop: {fileID: 2971803845777607359, guid: 87637fbcbc83e3740952f36d261361e9, type: 3}
+    Hit: {fileID: -7677608377013687694, guid: d4b6931b6627b834d81100fd980936ed, type: 3}
+  DirectionalHits:
+  - {fileID: 8994627151053476961, guid: b150645d8bf486444841fd09d0988efe, type: 3}
+  - {fileID: -451944128546541301, guid: 6aeeb9745cd44314186f3316a4651a78, type: 3}
+  - {fileID: 503797982961734160, guid: cd2822a7d70ea424cb32f2ff86d18599, type: 3}
+  - {fileID: -440063034918307727, guid: 2e60eb348ed4615439724727eed6b17c, type: 3}
+  - {fileID: -440063034918307727, guid: 2e60eb348ed4615439724727eed6b17c, type: 3}
+  - {fileID: -440063034918307727, guid: 2e60eb348ed4615439724727eed6b17c, type: 3}
+  - {fileID: -1928260664723510629, guid: e6dc08792e42e6c46a9b28ab4b36c119, type: 3}
+  - {fileID: -1621610500460932677, guid: 2b8c2a8616af29a4cbdcfed081b1b703, type: 3}
+  FrontDownHit: {fileID: 1369628866962470757, guid: 897f067599ddf4a4bbe401163c7ce30f, type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0950857b6ef0a142bd3949e20e880a9, type: 3}
+  m_Name: Dodge
+  m_EditorClassIdentifier: Assembly-CSharp::DemonsWithin.DuelActionAsset
+  Action: 6
+  FrameRate: 60
+  Duration: 24
+  Attack: 0
+  HitStart: 0
+  HitEnd: 0
+  DefenseStart: 2
+  DefenseEnd: 16
+  Reach: 1.8
+  HalfAngle: 60
+  Damage: 0
+  RootMotionScale: 1
+  ApplyRootYaw: 0
+  DodgeTurnEnd: 1
+  Motions:
+  - Frame: 0
+    Clip: {fileID: -5920763575524443948, guid: 2fa5bda0300c65f4682500e8bbb5c4f7, type: 3}
+    ClipIn: 0
+    ClipOut: 1
+    Fade: 0.07
+  Cues: []

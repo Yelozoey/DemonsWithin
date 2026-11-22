@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0950857b6ef0a142bd3949e20e880a9, type: 3}
+  m_Name: QuickFollowup
+  m_EditorClassIdentifier: Assembly-CSharp::DemonsWithin.DuelActionAsset
+  Action: 7
+  FrameRate: 60
+  Duration: 48
+  Attack: 1
+  HitStart: 15
+  HitEnd: 22
+  DefenseStart: 0
+  DefenseEnd: 0
+  Reach: 1.85
+  HalfAngle: 65
+  Damage: 20
+  RootMotionScale: 1
+  ApplyRootYaw: 0
+  Motions:
+  - Frame: 0
+    Clip: {fileID: -518962105211102742, guid: 59224bbf6d5dcae448f722902fe7dffc, type: 3}
+    ClipIn: 0
+    ClipOut: 1
+    Fade: 0.07
+  Cues:
+  - Frame: 0
+    Track: 0
+    Event: Windup
+    Audio: {fileID: 0}
+    Effect: {fileID: 0}
+    LocalOffset: {x: 0, y: 1, z: 0}
+    EffectLifetime: 3
+  - Frame: 15
+    Track: 0
+    Event: HitWindowOpen
+    Audio: {fileID: 0}
+    Effect: {fileID: 0}
+    LocalOffset: {x: 0, y: 1, z: 0}
+    EffectLifetime: 3

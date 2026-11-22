@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0950857b6ef0a142bd3949e20e880a9, type: 3}
+  m_Name: AirLanding
+  m_EditorClassIdentifier: Assembly-CSharp::DemonsWithin.DuelActionAsset
+  Action: 0
+  FrameRate: 60
+  Duration: 16
+  Attack: 0
+  HitStart: 0
+  HitEnd: 0
+  DefenseStart: 0
+  DefenseEnd: 0
+  Reach: 1.8
+  HalfAngle: 60
+  Damage: 0
+  CustomHitBox: 0
+  HitBoxCenter: {x: 0, y: 0.95, z: 0.9}
+  HitBoxSize: {x: 1.3, y: 1.15, z: 1.5}
+  HitBoxYaw: 0
+  DodgeDistance: 1.08
+  DodgeTravelSeconds: 0.3
+  RootMotionScale: 0
+  ApplyRootYaw: 0
+  ApplyRootHeight: 0
+  PassiveReaction: 0
+  Space: 0
+  LaunchHeight:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AirPoseOffset: 0
+  TargetLiftSpeed: 0
+  CustomTurnWindow: 0
+  TurnStart: 0
+  TurnEnd: 0
+  DodgeTurnEnd: 0
+  Motions:
+  - Frame: 0
+    Clip: {fileID: 7172315387746160803, guid: c9a139ea11262014ca258065f7b47463, type: 3}
+    ClipIn: 0
+    ClipOut: 0.48
+    Fade: 0.075
+  Cues: []

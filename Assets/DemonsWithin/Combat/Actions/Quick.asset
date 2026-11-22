@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0950857b6ef0a142bd3949e20e880a9, type: 3}
+  m_Name: Quick
+  m_EditorClassIdentifier: Assembly-CSharp::DemonsWithin.DuelActionAsset
+  Action: 1
+  FrameRate: 60
+  Duration: 56
+  Attack: 1
+  HitStart: 8
+  HitEnd: 15
+  DefenseStart: 0
+  DefenseEnd: 0
+  Reach: 1.8
+  HalfAngle: 60
+  Damage: 17
+  CustomHitBox: 1
+  HitBoxCenter: {x: 0, y: 1.2059858, z: 0.6678658}
+  HitBoxSize: {x: 0.79, y: 0.6798498, z: 0.7357317}
+  HitBoxYaw: 0
+  DodgeDistance: 1.08
+  DodgeTravelSeconds: 0.3
+  RootMotionScale: 1
+  ApplyRootYaw: 0
+  ApplyRootHeight: 0
+  PassiveReaction: 0
+  CustomTurnWindow: 0
+  TurnStart: 0
+  TurnEnd: 0
+  DodgeTurnEnd: 0
+  Motions:
+  - Frame: 0
+    Clip: {fileID: -944549193236652777, guid: 80e1a3bb6d7a6264fb7ae6a828e8be94, type: 3}
+    ClipIn: 0
+    ClipOut: 1
+    Fade: 0.07
+  Cues:
+  - Frame: 0
+    Track: 0
+    Event: Windup
+    Audio: {fileID: 0}
+    Effect: {fileID: 0}
+    LocalOffset: {x: 0, y: 1, z: 0}
+    EffectLifetime: 3
+  - Frame: 25
+    Track: 0
+    Event: HitWindowOpen
+    Audio: {fileID: 0}
+    Effect: {fileID: 0}
+    LocalOffset: {x: 0, y: 1, z: 0}
+    EffectLifetime: 3
